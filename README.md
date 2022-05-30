@@ -1,9 +1,8 @@
 # Customer Targeting with Prediction Intervals
 
 ## Replicability:
-The environment can be replicated with:
 
-Create a conda environment with the environment.yml file with
+Create a conda environment with the environment.yml file by running:
 
 conda env create --file environment.yml
 
