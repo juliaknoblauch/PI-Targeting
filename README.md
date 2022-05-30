@@ -5,7 +5,8 @@
 The code makes use of the more general helper library for uplift modeling: 
 
 https://github.com/johaupt/treatment-learn
-I want to thank Dr. Johannes Haupt for sharing the package!
+
+I want to thank Dr. Johannes Haupt for sharing the library!
 
 For reproducing the environment use:
 
