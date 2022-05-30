@@ -2,16 +2,17 @@
 
 ## Replicability:
 
-The code makes use of the more general helper library for uplift modeling: 
-https://github.com/johaupt/treatment-learn
-I want to thank Dr. Johannes Haupt for sharing the package!
-
-For reproducing the environment use:
-
-Create a conda environment with the environment.yml file with
+Create a conda environment with the environment.yml file by running:
 
 conda env create --file environment.yml
 
+
+
+The code makes use of the more general helper library for uplift modeling: 
+
+https://github.com/johaupt/treatment-learn
+
+I want to thank Dr. Johannes Haupt for sharing the library!
 
 
 ## Abstract: 
