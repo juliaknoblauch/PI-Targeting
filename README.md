@@ -1,19 +1,19 @@
 # Customer Targeting with Prediction Intervals
 
 ## Replicability:
+The environment can be replicated with:
+
+Create a conda environment with the environment.yml file with
+
+conda env create --file environment.yml
+
+
 
 The code makes use of the more general helper library for uplift modeling: 
 
 https://github.com/johaupt/treatment-learn
 
 I want to thank Dr. Johannes Haupt for sharing the library!
-
-For reproducing the environment use:
-
-Create a conda environment with the environment.yml file with
-
-conda env create --file environment.yml
-
 
 
 ## Abstract: 
