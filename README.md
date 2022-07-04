@@ -1,12 +1,19 @@
-# Customer Targeting with Prediction Intervals
+# Master Thesis: Customer Targeting with Prediction Intervals
+
+Author: Julia Knoblauch
+
+1st Examiner: Prof. Dr. Stefan Lessmann
+
+2nd Examiner: PD Dr. Benjamin Fabian
+
+Date: 30.05.2022
+
 
 ## Replicability:
-
 Create a conda environment with the environment.yml file by running:
-
+```
 conda env create --file environment.yml
-
-
+```
 
 The code makes use of the more general helper library for uplift modeling: 
 
@@ -41,8 +48,9 @@ ability not necessarily leads to higher profit.
 
 ## Structure
 
+```
 ├── cqr                                             -- adapted to allow for PI of train set
-├── nonconformist, skgarden                         -- local versions, necessary for functioning of cqr
+├── nonconformist, skgarden                         -- local versions, necessary for function of cqr
 ├── 2_train_treatment_models_prediction_intervals   -- modeling of CATE and PIs
 ├── 5.1_Results.ipynb                               -- evaluation of CATE and PI performance for sections 5.1 and 5.2
 ├── 5.1_Results.ipynb                               -- evaluation of targeting policies w.r.t profit for section 5.3
@@ -50,4 +58,4 @@ ability not necessarily leads to higher profit.
 ├── environment.yaml                                -- required libraries
 ├── helper.py                                       -- supplementary functions for modeling and evaluation
 ├── myXBCF.py                                       -- adapted XBCF class
-         
+```    
