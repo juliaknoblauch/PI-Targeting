@@ -38,3 +38,16 @@ is successful in ranking the customers according to their predictive uncertainty
 the ability of prediction intervals to reflect the predictive uncertainty even in causal point estimates.
 They further highlight that the goal of the targeting must be selected carefully, as a better predictive
 ability not necessarily leads to higher profit.
+
+## Structure
+
+├── cqr                                             -- adapted to allow for PI of train set
+├── nonconformist, skgarden                         -- local versions, necessary for functioning of cqr
+├── 2_train_treatment_models_prediction_intervals   -- modeling of CATE and PIs
+├── 5.1_Results.ipynb                               -- evaluation of CATE and PI performance for sections 5.1 and 5.2
+├── 5.1_Results.ipynb                               -- evaluation of targeting policies w.r.t profit for section 5.3
+├── README.md
+├── environment.yaml                                -- required libraries
+├── helper.py                                       -- supplementary functions for modeling and evaluation
+├── myXBCF.py                                       -- adapted XBCF class
+         
